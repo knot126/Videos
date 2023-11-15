@@ -34,7 +34,12 @@ function makeHeading(title) {
 	make(`<h1>${title}</h1>`);
 }
 
+function makeSubHeading(title) {
+	make(`<h2>${title}</h2>`);
+}
+
 function makePara(text) {
+	text = text.replaceAll("\n", "<br/>");
 	make(`<p>${text}</p>`);
 }
 
@@ -101,7 +106,13 @@ function loadVideoPage(content, id) {
 		makePlayer(found.video, found.thumb);
 		makeHeading(found.title);
 		makeParaLite(found.date);
+		makeSubHeading("About this video");
 		makePara(found.desc);
+		makeSubHeading("Some other videos");
+		
+		for (let i = 0; i < Math.min(content.length, 3); i++) {
+			makeClickableVideo(content[i]);
+		}
 	}
 	else {
 		makeHeading("Your video was not found!");

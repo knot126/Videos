@@ -1,18 +1,18 @@
 [
 	{
-		"id": "id",
-		"thumb": "https://cdn.discordapp.com/attachments/1074431748567466074/1174152245156270110/image.png?ex=65668d7d&is=6554187d&hm=0ae6ec86a810d0bd2c4e3558c7af40251d99e41cac4ab2afa289d32d31d58b95&",
-		"video": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm",
-		"title": "This is a video with a title",
-		"date": "2023-11-15",
-		"desc": "Haha look funny video!"
+		"id": "sh_linear_1",
+		"thumb": "t/sh_linear_1.png",
+		"video": "v/sh_linear_1.mp4",
+		"title": "Smash Hit with linear gradients in meshes",
+		"date": "2023-11-13",
+		"desc": "I'm working on an extension to meshbake that allows linear gradients, both relative to the box and absolute to the scene. This is a small segment I made to showcase that called \"radical\"."
 	},
 	{
-		"id": "id",
-		"thumb": "https://cdn.discordapp.com/attachments/1074431748567466074/1174152245156270110/image.png?ex=65668d7d&is=6554187d&hm=0ae6ec86a810d0bd2c4e3558c7af40251d99e41cac4ab2afa289d32d31d58b95&",
-		"video": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm",
-		"title": "More where this is !!!",
-		"date": "2023-11-15",
-		"desc": "I can make really loooong descriptions! Like look at this shit! LMAO. LOL. LEL. LFMAO. ROFL. HAHHAHHAHAHAHAH. MWAHAHAHHAHHWHWHHAHWHWHWHHAHWH!!!!!...."
+		"id": "verso_showcase",
+		"thumb": "t/verso_showcase.png",
+		"video": "v/verso_showcase.mp4",
+		"title": "Smash Hit Modding - Verso Showcase (Luka's Room Contest 2023 Submission)",
+		"date": "2023-10-14",
+		"desc": "This is my room for the Smash Hit Lab room contest hosted by Luka, called Verso. I plan to make some changes to it and maybe release it in a minimod or for other people to use, but for now there is no download link.\n\nHopefully you like it :)"
 	}
 ]

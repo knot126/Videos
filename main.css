@@ -62,6 +62,7 @@ p, li {
 .video-card {
 	display: grid;
 	grid-template-columns: 250px auto;
+	height: 150px;
 }
 
 .video-card:hover {
